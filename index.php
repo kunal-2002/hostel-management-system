@@ -28,6 +28,7 @@ session_start();
                 <form>
                     <label for="userid">User ID:</label>
                     <input type="text" id="userid" name="userid" required>
+                    <input type="Address">
                     
 
                     <label for="password">Password:</label>
@@ -56,7 +57,7 @@ session_start();
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/home.js"></script>
-   
+   <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequatur qui repellendus, animi impedit voluptatem temporibus cumque, eum inventore ab rerum. Neque expedita hic minima velit, inventore recusandae veritatis vel.</footer>
 </body>
 
 </html>
