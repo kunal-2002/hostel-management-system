@@ -64,27 +64,28 @@ nav {
 
 .login-card-content{
     border: 1px solid #ccc;
+}
 
-    form{
+.login-card-content form{
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+}
 
-    label{
+.login-card-content label{
         display: block;
         margin-bottom: 5px;
-    }
+}
 
-    input{
+.login-card-content input{
         padding: 8px;
         margin-bottom: 10px;
         width: 100%;
         border-radius: 5px;
         border: 1px solid #ccc;
-    }
+}
 
-    button[type="submit"]{
+.login-card-content button[type="submit"]{
         background-color: #4caf50;
         color: white;
         padding: 8px 16px;
@@ -92,29 +93,29 @@ nav {
         border: none;
         cursor: pointer;
         transition: background-color 0.3s;
-
-        &:hover{
-            background-color: #3e8e41;
-        }
-    }
 }
+.login-card-content button[type="submit"]:hover{
+            background-color: #3e8e41;
+}
+    
+
 
 .checkbox{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+}
 
-    label{
+.checkbox label{
         margin-left: 5px;
     }
-}
+
 
 .forgot-password{
     margin-bottom: 10px;
-
-    a{
+}
+.forgot-password a{
         color: red;
-    }
 }
 
 .register-link{
