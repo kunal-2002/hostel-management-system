@@ -1,8 +1,35 @@
-.page_container{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+body, html{
+    font-family: Roboto, sans-serif, arial;
 }
+.width-100{
+    width: 100%;
+    float: left;
+}
+.container{
+    width: 1500px;
+    margin: 0px auto;
+}
+.top-header{
+    background: #000000;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+}
+.news-list{
+    background: #fff;
+    color: red;
+    
+    font-size: 18px;
+    height: auto;
+    width: auto;
+    vertical-align: middle;
+}
+.headquote{
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+    vertical-align: middle;
+}
+
 .header nav {
     width: 100%;
 
@@ -12,7 +39,7 @@
     
     background-color: #4054b2;
     padding: 1rem 2rem;
-    top: 0;
+    
     left: 0;
     
     border: 1px solid rgba(255, 255, 255, 0.18);
@@ -27,11 +54,36 @@
 }
 
 .logo img{
-    height: 130px;
+    height: 140px;
 
     @media screen and (min-width: 2000px){
         height: 200px;
     }
+
+    @media screen and (max-width: 695px){
+        height: 60px;
+    }
+}
+
+.page_container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    position: absolute;
+    top: 1;
+    align-self: center;
+}
+
+.container-logo{
+    
+    height: 140px;
+    width: auto;
 }
 
 .background {

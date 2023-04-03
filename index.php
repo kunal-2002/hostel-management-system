@@ -15,7 +15,16 @@ session_start();
 </head>
 
 <body>
-        
+
+    <div class="width-100 top-header" >
+        <div class="container">
+            <div class="width-100">
+                <b class="news-list">  NEWS : </b>
+                <marquee class="headquote">It is advised that students will ensure their health conditions with regards to COVID-19 and will follow SOP. Before entering the University Campus, all the students will be screened. Any students with symptoms like fever, cold, etc. will NOT be allowed to enter the campus.</marquee>
+            </div>
+        </div>
+    </div>
+
     <?php
         include "includes/header.php";
     ?>
@@ -23,9 +32,10 @@ session_start();
     <div class="background"></div>
 
     <div class="page-container">
-      <article contentEditable>Content</article>
+        <a class="top" href="index.php">
+            <img class="container-logo" src="assets/logo.png" />
+        </a>
     </div>
-
 
     <?php
         include "includes/signup_modal.php";

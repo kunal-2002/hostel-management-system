@@ -1,6 +1,6 @@
 <footer class="footer">
     <div class="page-container footer-container">
-        <div class="footer-copyright">Made with ❤️ by <b>HMS Developers</b></div>
+        <div class="footer-copyright">Made with ❤️ by <b>HMS Team</b></div>
     </div>
 </footer>
 

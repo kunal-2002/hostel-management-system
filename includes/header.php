@@ -1,8 +1,7 @@
 <div  class="header">
     <nav class="navbar navbar-expand-md navbar-light" >
         <a class="navbar-brand" href="index.php">
-            <img src="assets/logo.png" />
-            <img class="second-logo" src="assets/header_logo.png" />
+            <img class="logo" src="assets/header_logo.png" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-navbar" >
             <span class="navbar-toggler-icon" ></span>
