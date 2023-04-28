@@ -1,10 +1,53 @@
-# HMS
-Hostel management system
------------------------------------------------------------------------
-STEP-1 make a new folder in "c/xampp/htdocs" anmed "HMS"<BR/>
-STEP-2 run "git clone https://github.com/kunal-2002/hostel-management-system" in "HMS" folder.<BR/>
-STEP-3 make sure all these files & folders are inside "c/xampp/htdocs/HMS".<BR/>
-STEP-4 start contributing in this project.<BR/>
+# Hostel Management System
+
+Hostel Management System is used to manage students in hostels.
+This was especially made for VIT Vellore.
 
 
-Tech Stack: HTML, CSS, Bootstrap, Javascript, PHP, MySQL
+
+
+
+## Features
+
+- Registration for male and female
+- Admin Dashboard
+- Student Dashboard
+- Selection of block
+- View roommates
+- Apply Leave
+- Admin can approve and reject leave request
+- Admin can search student block details
+
+
+
+## Deployment
+
+To deploy this project follow these steps:
+
+```bash
+ 1. Install Xampp
+ 2. Place this folder in htdocs
+ 3. Run Apache Server and MYSQL Database
+ 4. Create Tables required.
+ 5. Run the project by typing url(http://localhost/<YOUR FILE PATH>)
+```
+
+## Authors
+
+- [@kunal-2002](https://github.com/kunal-2002)
+- [@Adarsh121003](https://github.com/Adarsh121003)
+
+
+## 🚀 About Me
+Hi👋, I'm Kunal Kathpal.
+Student at Ch. Ranbir Singh State Institute Of Engineering and Technology, Jhajjar.
+
+
+## 🛠 Skills
+HTML, CSS, JavaScript, React, PHP, MySQL, NodeJS, ExpressJS, MongoDB
+
+
+## Support
+For support, email kkunal2103@outlook.com.
+
+
