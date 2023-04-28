@@ -86,6 +86,10 @@
     height: 80px;
 }
 
+.NavItem :hover{
+    border-bottom: 3px solid #01bf71;
+}
+
 .NavLinks{
     color: #fff;
     display: flex;
@@ -358,7 +362,8 @@
   
 .FooterLinksContainer{
     display: flex;
-    justify-content:center;
+    justify-content:left;
+    
 }
   
 .FooterLinksWrapper{
@@ -374,6 +379,7 @@
     width: 160px;
     box-sizing: border-box;
     color: #fff;
+    justify-content: left;
 }
 
 .FooterLinkTitle{
@@ -434,5 +440,9 @@
 .SocialIconLink{
     color:#fff;
     font-size: 24px;
+}
+
+.SocialIconLink:hover{
+    color: blue;
 }
   

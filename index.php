@@ -18,7 +18,7 @@ session_start();
 
 <body  onscroll="changecolor()">
 
-    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="./js/home.js"></script>
    
     <div class="Nav" id="Nav1">
         <div class="NavbarContainer">
@@ -43,11 +43,11 @@ session_start();
     <div class="HeroContainer">
         <div class="HeroBg">
             <video muted autoplay="autoplay" Loop class="VideoBg">
-                <source src="assets/video2.mp4" type="video/mp4">
+                <source src="./assets/video2.mp4" type="video/mp4">
             </video>
         </div>
         <div class="HeroContent">
-            <img class="HeroH1" src="assets/logo.png">
+            <img class="HeroH1" src="./assets/logo.png">
             <p class="HeroP">CRSSIET, Jhajjar</p>
             <div class="HeroBtnWrapper">
                 <button type="button" name="button" class="NavBtnLink" onclick="change()">Get Started</button>
@@ -121,7 +121,7 @@ session_start();
 
             <div class="SocialMedia">
                 <div class="SocialMediaWrap">
-                    <a href="#" class="SocialLogo">HMS</a>
+                    <a href="#" class="SocialLogo"><img style="width: 180px; height: 50px;" src="./assets/logo.png" alt=""></a>
                     <p class="WebsiteRights">CRSSIET, Jhajjar © 2023</p>
                     <div class="SocialIcons">
                         <a href="https://www.facebook.com/CRSSIET" class="SocialIconLink"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
