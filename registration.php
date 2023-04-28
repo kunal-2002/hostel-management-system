@@ -76,7 +76,7 @@
                         <input name="name" type="text" placeholder="Enter your name" value="<?php echo "$name"; ?>" required pattern="[a-z A-Z]*">
                     </div>
                     <div class="input-box">
-                        <span class="details">Reg No</span>
+                        <span class="details">Registration Number</span>
                         <!-- pattern="[0-9]{2}[A-Z]{3}[0-9]{4}" -->
                         <input type="text" placeholder="Enter your regno" name="regno" value="<?php echo "$regno"; ?>"  required>
                     </div>
