@@ -1,7 +1,7 @@
 # Hostel Management System
 
 Hostel Management System is used to manage students in hostels.
-This was especially made for VIT Vellore.
+This was especially made for CRSSIET, Jhajjar students.
 
 
 
