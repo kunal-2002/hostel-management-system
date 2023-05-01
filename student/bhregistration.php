@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boys Hostel Allotment</title>
     <link rel="stylesheet" href="../css/bhreg.css">
+    <style>
+        .card--1 .card__img, .card--1 .card__img--hover{
+            background-image: url("../assets/boys_hostel.jpg");
+        }
+    </style>
 </head>
 <body>
     <?php session_start(); ?>
@@ -16,7 +21,7 @@
             require_once('../dbConnect.php');
             if(isset($_POST["ablock"])){
                 $blockname="ablock";
-                $rowSQL = mysqli_query($conn, "SELECT MAX( roomno ) AS max FROM `users` WHERE block='$blockname' AND gender='male';" );
+                $rowSQL = mysqli_query($conn, "SELECT MAX(roomno) AS max FROM `users` WHERE block='$blockname' AND gender='male';");
                 $row = mysqli_fetch_array( $rowSQL );
                 $largestNumber = $row['max'];
                 if($largestNumber==0){
@@ -32,9 +37,9 @@
                     $roomno=$largestNumber+1;
                 }
             }
-            $sql = "UPDATE `users` SET `block`=`$blockname` where regno = `$regno`";
+            $sql = "UPDATE `users` SET `block`='$blockname' where regno = '$regno';";
             $query = mysqli_query($conn,$sql);
-            $sql = "UPDATE `users` SET `roomno`=`$roomno` where regno = `$regno`";
+            $sql = "UPDATE `users` SET `roomno`='$roomno' where regno = '$regno';";
             $query1 = mysqli_query($conn, $sql);
 
             if($query && $query1){

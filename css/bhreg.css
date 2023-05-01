@@ -173,10 +173,6 @@ body{
     max-width: 820px; */
 }
 
-.card--1 .card__img, .card--1 .card__img--hover{
-    background-image: url("../assets/boys_hostel.jpg");
-}
-
 .card__img{
     visibility: hidden;
     background-size: cover;
