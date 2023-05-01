@@ -11,6 +11,11 @@
         session_start();
     }
     $regno = $_SESSION['regno'];
+    require_once('../dbConnect.php');
+    $sql = "SELECT name FROM users WHERE regno='$regno';";
+    $query1= mysqli_query($conn, $sql);
+    $row = mysqli_fetch_assoc($query1);
+    $name = $row['name'];
 ?>
 <div class="Nav" id="Nav1" >
     <div class="NavbarContainer">
@@ -19,7 +24,7 @@
             <i class="fa fa-bars"></i>
         </div>
         <ul class="NavMenu">
-            <li style="color: white; padding-top: 30px; margin-left: 250px;" class="NavItem"><?php echo "Welcome $regno"; ?></li>
+            <li style="color: white; padding-top: 30px; margin-left: 250px;" class="NavItem"><?php echo "Welcome ".$name." ( ".$regno." )"; ?></li>
         </ul>
         <!-- <ul class="NavMenu">
             <li class="NavItem"><a id="linkcolor" on class="NavLinks" href="#about">About</a></li>
