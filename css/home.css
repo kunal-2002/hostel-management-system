@@ -5,6 +5,7 @@
     font-family: "Encode Sans Expanded", sans-serif;
 }
 
+
 .Nav{
     background: transparent;
     height: 80px;
@@ -51,11 +52,15 @@
     text-decoration: none;
 }
 
-.MobileIcon{
+.MobileIcon, .navbar-menu{
     display: none;
 }
 
-@media screen and (max-width: 768px){
+.MobileIcon:hover{
+    color: #01bf71;
+}
+
+@media screen and (max-width: 1100px){
     .MobileIcon{
         display: block;
         position: absolute;
@@ -66,6 +71,32 @@
         cursor: pointer;
         color: #fff;
    }
+
+   .NavLogo{
+    justify-self: flex-start;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    }
+
+    .navbar-menu{
+        background: whitesmoke;
+        color: black;
+        list-style: none;
+    }
+
+}
+
+@media screen and (max-width: 660px){
+   .NavLogo{
+        justify-self: flex-start;
+        cursor: pointer;
+        display: flex;
+        margin-left: 0;
+        width: 300px;
+        height: auto;
+    }
 }
 
 .NavMenu{
@@ -76,7 +107,7 @@
     margin-right: -22px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1100px){
     .NavMenu{
         display:none;
     }
@@ -109,7 +140,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1100px){
     .NavBtn{
         display: none;
     }
@@ -134,6 +165,51 @@
     background: #fff;
     color: #010606;
 }
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    list-style-type: none;
+    list-style: none;
+}
+/* Sidenav */
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #01bf71;
+}
+
+.closebtn{
+    position: absolute;
+    top: 8px;
+    right: 0;
+    font-size: 36px !important;
+    margin-right: 26px;
+    transform: scale(1.5);
+    display: block;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/* sidenav  */
 
 .HeroContainer{
     background: #0c0c0c;
@@ -193,9 +269,11 @@
     text-align: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 855px){
     .HeroH1{
       font-size: 40px;
+      width: 350px;
+      height: auto;
     }
     .HeroP{
       font-size: 24px;

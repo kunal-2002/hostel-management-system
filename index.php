@@ -23,8 +23,16 @@ session_start();
     <div class="Nav" id="Nav1">
         <div class="NavbarContainer">
             <img src="assets\header_logo.png" alt="" class="NavLogo" onclick="rtohome()">
-            <div class="MobileIcon">
+            <a class="MobileIcon" id="linkcolor3" onclick="openNav()">
                 <i class="fa fa-bars"></i>
+            </a>
+            <div class="sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li class="NavItem"><a  on class="NavLinks" href="#about">About</a></li>
+                <li class="NavItem"><a class="NavLinks" href="pricing.php">Pricing</a></li>
+                <li class="NavItem"><a class="NavLinks" href="#contact">Contact Us</a></li>
+                <li class="NavItem"><a class="NavLinks" href="signin.php">Sign in</a></li>
+                <li class="NavItem"><a class="NavLinks" href="registration.php">Signup</a></li>
             </div>
             <ul class="NavMenu"> 
                 <li class="NavItem"><a id="linkcolor" on class="NavLinks" href="#about">About</a></li>
@@ -37,9 +45,6 @@ session_start();
             </div>
         </div>
     </div>
-
-
-
     <div class="HeroContainer">
         <div class="HeroBg">
             <video muted autoplay="autoplay" Loop class="VideoBg">
