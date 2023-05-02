@@ -31,7 +31,7 @@
             <div class="pricingwrapper">
                 <div class="columns">
                     <ul class="price">
-                        <li class="header">Boys Hostel</li>
+                        <li class="header">Boys Hostel (A BLOCK)</li>
                         <div class="imagewrapper">
                             <img style="height:150px; width:150px;" src="./assets/boys_hostel.jpg" alt="">
                         </div>
@@ -46,7 +46,7 @@
 
                 <div class="columns">
                     <ul class="price">
-                        <li class="header">Girls Hostel</li>
+                        <li class="header">Girls Hostel (B BLOCK)</li>
                         <div class="imagewrapper">
                             <img style="height:150px; width:150px;" src="./assets/girls_hostel.jpg" alt="">
                         </div>
