@@ -159,6 +159,7 @@ th{
     background: #3498db;
     border-top: none;
     color: white;
+    font-weight: bold;
 }
 
 td, th{
