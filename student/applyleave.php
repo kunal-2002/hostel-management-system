@@ -83,7 +83,7 @@
                     <div class="input-box">
                         <span class="details">Reg No</span>
                         <!-- pattern="[0-9]{2}[A-Z]{3}[0-9]{4}" -->
-                        <input type="text" placeholder="Enter your regno" value="<?php echo $regno; ?>" disabled required>
+                        <input type="text" placeholder="Enter your regno" value="<?php echo $regno; ?>" pattern="[0-9]+" disabled required>
                     </div>
                     <div class="input-box">
                         <span class="details">Block Name</span>

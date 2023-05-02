@@ -34,7 +34,7 @@
         <form action="signin.php" method="post">
             <div class="txt_field">
                 <!-- pattern="[0-9]{2}[A-Z]{3}[0-9]{4}" -->
-                <input name="username" type="text" required >
+                <input name="username" type="text" pattern="[0-9]+" required >
                 <span></span>
                 <label>Registration Number</label>
             </div>
