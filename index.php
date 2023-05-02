@@ -38,7 +38,7 @@ session_start();
                 <li class="NavItem"><a id="linkcolor" on class="NavLinks" href="#about">About</a></li>
                 <li class="NavItem"><a id="linkcolor1" class="NavLinks" href="pricing.php">Pricing</a></li>
                 <li class="NavItem"><a id="linkcolor2" class="NavLinks" href="#contact">Contact Us</a></li>
-                <li class="NavItem"><a id="linkcolor3" class="NavLinks" href="signin.php">Sign in</a></li>
+                <li class="NavItem"><a id="linkcolor4" class="NavLinks" href="signin.php">Sign in</a></li>
             </ul>
             <div class="NavBtn">
                 <button type="button" name="button" class="NavBtnLink" onclick="change()">Signup</button>

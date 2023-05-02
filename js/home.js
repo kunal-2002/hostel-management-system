@@ -14,14 +14,15 @@ window.onscroll=function(){
       document.getElementById("linkcolor").style.color = "black";
       document.getElementById("linkcolor1").style.color = "black";
       document.getElementById("linkcolor2").style.color = "black";
-      document.getElementById("linkcolor3").style.color = "black";
+      document.getElementById("linkcolor4").style.color = "black";
+      
     }
     else{
       document.getElementById("Nav1").style.backgroundColor = "transparent";
       document.getElementById("linkcolor").style.color = "white";
       document.getElementById("linkcolor1").style.color = "white";
       document.getElementById("linkcolor2").style.color = "white";
-      document.getElementById("linkcolor3").style.color = "white";
+      document.getElementById("linkcolor4").style.color = "white";
     }
 }
 
