@@ -1,7 +1,8 @@
 # Hostel Management System
 
-Hostel Management System is used to manage students in hostels.
-This was especially made for CRSSIET, Jhajjar students.
+A Hostel Management System used to manage students in hostels. 
+It was made by using HTML, CSS, Javascript, PHP and MySQL. 
+It was specially made for CRSSIET, Jhajjar students.
 
 
 
